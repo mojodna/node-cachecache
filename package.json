@@ -1,0 +1,12 @@
+{
+  "name": "cachecache",
+  "version": "0.0.0",
+  "description": "Connect middleware that preemptively 304s",
+  "main": "index.js",
+  "author": "Seth Fitzsimmons <seth@mojodna.net>",
+  "license": "ISC",
+  "dependencies": {
+    "fresh": "^0.2.4",
+    "lru-cache": "^2.5.0"
+  }
+}
