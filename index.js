@@ -11,7 +11,7 @@ module.exports = function(options) {
   });
 
   return function(req, res, next) {
-    if (fresh(req.headers, CACHE.get(req.originalUrl) || {})) {
+    if (fresh(req.headers, CACHE.get(req.url) || {})) {
       return res.sendStatus(304);
     }
 
@@ -28,7 +28,7 @@ module.exports = function(options) {
         }
       });
 
-      CACHE.set(req.originalUrl, headers);
+      CACHE.set(req.url, headers);
     });
 
     return next();
