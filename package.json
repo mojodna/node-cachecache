@@ -1,6 +1,6 @@
 {
   "name": "cachecache",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Connect middleware that preemptively 304s",
   "main": "index.js",
   "author": "Seth Fitzsimmons <seth@mojodna.net>",
