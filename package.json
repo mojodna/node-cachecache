@@ -4,6 +4,10 @@
   "description": "Connect middleware that preemptively 304s",
   "main": "index.js",
   "author": "Seth Fitzsimmons <seth@mojodna.net>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mojodna/node-cachecache.git"
+  },
   "license": "ISC",
   "dependencies": {
     "fresh": "^0.2.4",
