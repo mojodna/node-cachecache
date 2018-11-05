@@ -10,7 +10,7 @@
   },
   "license": "ISC",
   "dependencies": {
-    "fresh": "^0.2.4",
+    "fresh": "^0.5.2",
     "lru-cache": "^2.5.0"
   }
 }
